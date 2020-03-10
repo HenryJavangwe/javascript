@@ -22,6 +22,6 @@ function smallTalk ( music){
     return message +" "+ music +" "+ "Rocks!";
 }
 
-let music = prompt(" what\'s your favourite music genre?")
+let music = prompt(" what\'s your favourite music genre eg. jazz, Pop, RnB etc?")
 
 alert(smallTalk( music));
